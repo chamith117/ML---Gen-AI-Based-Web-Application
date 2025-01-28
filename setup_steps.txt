@@ -1,0 +1,33 @@
+
+Steps to Install Libraries and Run the Web Application
+
+1. Navigate to the main loader directory:
+   - Open the terminal and move to the FNL directory using:
+     cd FNL
+
+2. Create and activate a virtual environment (recommended):
+   - Create a virtual environment:
+     python3 -m venv venv
+   - Activate the virtual environment:
+     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+3. Upgrade pip to the latest version:
+   pip install --upgrade pip
+
+4. Install the required libraries:
+   - Run the following command to install essential libraries:
+     pip install streamlit firebase-admin requests
+
+5. Install additional dependencies from requirements.txt (if available):
+   - If you have a requirements.txt file in the FNL directory, run:
+     pip install -r requirements.txt
+
+6. Start the Streamlit application:
+   - Launch the web app by typing:
+     streamlit run app.py
+
+7. Access the application:
+   - Open your web browser and go to:
+     http://localhost:8501
+
+8. Enjoy using the Travel Planning System!
